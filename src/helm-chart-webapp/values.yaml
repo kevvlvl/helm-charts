@@ -1,0 +1,11 @@
+# Default values for helm-chart-webapp.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+ns: app
+
+nginx:
+  replicaCount: 1
+  image:
+    name: nginxinc/nginx-unprivileged:1.25
+  port: 8080

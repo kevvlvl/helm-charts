@@ -1,0 +1,12 @@
+apiVersion: v2
+type: application
+version: 0.1.0
+
+name: helm-chart-webapp
+description: A Helm chart for Kubernetes
+appVersion: "1.16.0"
+
+dependencies:
+- name: helm-chart-common
+  version: ^1.0.1
+  repository: 
