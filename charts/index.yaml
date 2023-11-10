@@ -8,6 +8,6 @@ entries:
     name: helm-chart-common
     type: library
     urls:
-    - https://kevvlvl.github.io/helm-charts/src/helm-chart-common-1.0.1.tgz
+    - https://kevvlvl.github.io/helm-charts/charts/helm-chart-common-1.0.1.tgz
     version: 1.0.1
 generated: "2023-11-10T17:35:41.879074063-05:00"
