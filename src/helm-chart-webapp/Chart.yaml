@@ -9,4 +9,4 @@ appVersion: "1.16.0"
 dependencies:
 - name: helm-chart-common
   version: ^1.0.1
-  repository: https://kevvlvl.github.io/helm-charts/src/
+  repository: https://kevvlvl.github.io/helm-charts/charts/
