@@ -1,3 +1,4 @@
+{{- define "helm-chart-common.configmap.tpl" -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -6,3 +7,7 @@ metadata:
 data:
   color: red
   env: prod
+{{- end -}}
+{{- define "helm-chart-common.configmap" -}}
+{{- include "helm-chart-common.util.merge" (append . "helm-chart-common.configmap.tpl") -}}
+{{- end -}}

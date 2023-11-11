@@ -1,0 +1,6 @@
+dependencies:
+- name: helm-chart-common
+  repository: https://kevvlvl.github.io/helm-charts/charts/
+  version: 1.0.1
+digest: sha256:f5b117cdcaffd2649f70dfb0a135b3f50ddca3b588b9a6baed377a92c87a11f3
+generated: "2023-11-10T18:54:51.15290194-05:00"
