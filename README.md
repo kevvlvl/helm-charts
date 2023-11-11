@@ -70,7 +70,8 @@ spec:
       containers:
       - image: nginxinc/nginx-unprivileged:1.25
         name: nginx
-
+        ports:
+        - containerPort: 8080
 ```
 
 As we can see, our ConfigMap is there which is based off the configmap template
